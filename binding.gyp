@@ -2,7 +2,7 @@
   "targets": [
     {
       "target_name": "binding",
-      "sources": [ "binding.c" ]
+      "sources": [ "binding.c" ],
       'conditions': [
         ['node_shared_openssl=="false"', {
           # so when "node_shared_openssl" is "false", then OpenSSL has been
